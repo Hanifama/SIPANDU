@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* file index.css atau globals.css */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px; /* tipis */
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent; /* biar clean */
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: #d1d5db; /* abu2 */
+  border-radius: 9999px; /* rounded */
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af; /* lebih gelap pas hover */
+}
